@@ -1,4 +1,4 @@
-var dodger = document.getElementbyId("dodger");
+var dodger = document.getElementById("dodger");
 
 function moveDodgerRight() {
   var rightNumber = dodger.style.right.replace("px", ""); 
