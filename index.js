@@ -1,2 +1,5 @@
 var dodger = document.getElementbyId("dodger");
-document.addEventListener("")
+document.addEventListener("keydown", e => {if (e.which === 37) {
+  moveDodgerRight()
+}
+)
