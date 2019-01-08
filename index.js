@@ -8,7 +8,7 @@ function moveDodgerRight() {
   }
 }
 
-document.addEventListener("keydown", e => {if (e.which === 37) {
+document.addEventListener("keydown", e => {if (e.which === 39) {
   moveDodgerRight()
 }
 })
